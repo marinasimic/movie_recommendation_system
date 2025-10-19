@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local env / secrets
+.env
+venv/
+.env.*
+
+# Caches and artifacts (do NOT commit)
+.cache/
+.cache_*/
+*.npy
+*.npz
+recommendations.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit / OS
+.streamlit/
+.DS_Store
+Thumbs.db
+
+# model / large binaries
+models/
+*.bin
+*.pt
